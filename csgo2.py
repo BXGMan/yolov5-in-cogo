@@ -53,7 +53,7 @@ while True:
     else:
         heng = float(0)
         shu = float(0)  # 没有识别物体
-    cv2.imshow("Screen Realtime", np.array(scr_img.render())[0])
+    cv2.imshow("Screen Realtime", np.array(scr_img.render())[0])  
     # print(str(bounding_box))
     if (cv2.waitKey(1) & 0xFF) == ord('q'):
         cv2.destroyAllWindows()
