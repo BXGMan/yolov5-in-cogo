@@ -9,3 +9,5 @@
 
 毕竟python和yolo都是自学的 代码十分不规范 大佬看了不要笑！！！
 
+演示视频：
+https://www.bilibili.com/video/BV1ZF411g7vc/
