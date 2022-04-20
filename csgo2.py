@@ -20,9 +20,9 @@ def mous():
     global hengold
     if hengold != heng:  # 识别有延迟 为了防止鼠标同一个参数移动两次
         pyautogui.moveRel(heng, shu)   # 移动鼠标参数 *不知道为什么heng和shu变量不用加全局就能获取
-        if heng < 100 and heng != 0:    # 当横向移动 小于100个像素且不为0时直接开火
-            pyautogui.click(button='left')   # 开火
-        hengold = heng
+        #if heng < 100 and heng != 0:    # 当横向移动 小于100个像素且不为0时直接开火
+        pyautogui.click(button='left')   # 开火
+        #hengold = heng
 
 
 def mouse():
